@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const con = require("../../database");
+const pool = require("../../database");
 
 router.get("/signin", (req, res) => {
   res.send("Signin");
